@@ -28,7 +28,7 @@ The second step of the above process suggests a certain polarisation that occurs
 
 Golgi completely disagreed with this, believing instead that all the cells are connected physically, negating the need for synaptic connections. He went so far as to criticise Ramon y Cajal's idea on the podium in 1906 during the Nobel Prize presentations.
 
-![Laballed Image of Neuron](./images/neuron.png)
+![Laballed Image of Neuron](./images/images_2/neuron.png)
 
 Today, we accept Ramon y Cajal's idea, with the dendrites being receptive devices (input) and the axon being the sending device (output). A labelled image of a typical neuron is shown above.
 
@@ -38,7 +38,7 @@ The blue neuron is the **post-synaptic** neuron, the receiving neuron. The red n
 
 These 2 form synaptic contact for transmission. When contact is made, there is a change in voltage (potential difference).
 
-![Conceptual Neuron](./images/conceptual_neuron.png)
+![Conceptual Neuron](./images/images_2/conceptual_neuron.png)
 
 There is also another neuron coloured cyan, and its job is to decrease the potential difference by providing an inhibitory potential.
 
@@ -51,14 +51,14 @@ The sending part of the neuron is the axon. It consists of:
 - Myelin Sheath
 - Varicosities
 
-![Axon](./images/axon.png)
+![Axon](./images/images_2/axon.png)
 
 There are certain "hot" regions, and these are not covered by the myelin sheath. This includes the AIS, Nodes of Ranvier, and the varicosities (terminals).
 
 ### **Myelin Sheath**
 The myelin sheath is quite unique to the axon. In fact, if you observe the presence of myelin, you're probably looking at an axon. 
 
-![Myelin Sheath](./images/myelin_sheath.png)
+![Myelin Sheath](./images/images_2/myelin_sheath.png)
 
 The myelin sheath is formed using either myelinating glial cells (oligodendrocytes) in the central nervous system or Schwann cells in the peripheral nervous system. These cells are enwrapped several times around the axon to serve as the myelin sheath.
 
@@ -68,7 +68,7 @@ There exists ion channels at these nodes of Ranvier, allowing for the boosting o
 ## 4. The Dendrite
 Individual dendrites come together to form the dendritic tree, and these make for beautiful structures such as those shown below.
 
-![Dendritic Trees](./images/dendritic_trees.png)
+![Dendritic Trees](./images/images_2/dendritic_trees.png)
 
 Notice that the names of these cells seem to depend on the structures of the dendritic trees.
 
@@ -103,12 +103,12 @@ Another way to look at neurons is Principal Neurons vs Interneurons:
 These interneurons can be further classified based on morphology. This was attempted by Dr. Javier DeFelipe and his team in their 2013 [paper](https://www.nature.com/articles/nrn3444).
 
 ## 6. The Synapse
-![Synapse Formation](./images/synapse_formation.png)
+![Synapse Formation](./images/images_2/synapse_formation.png)
 
 This is where the electrical spikes get transmitted from the pre-synaptic axon terminal to the post-synaptic dendrite. This happens at the dendritic spines without the need of actual contact. The signal from the pre-synaptic axon is a very fast pulse that can be treated as a digital 1 or 0. The post-synaptic signal has a much smaller gradient to its decay, meaning it's more analogue. Thus, in a way, the process of transmission at the synapse includes a digital-to-analogue conversion. In fact, there are many possible results depending on the type of synapse formed.
 
 Transmission can be characterised through a highly chemical process, in particular via ions.
 
-![Vesicle Quantal Release](./images/vesicle_quantal_release.png)
+![Vesicle Quantal Release](./images/images_2/vesicle_quantal_release.png)
 
 The 

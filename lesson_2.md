@@ -2,12 +2,11 @@
 
 ## Plan:
 > 1. The Neuron
-> 2. Neuron as an I/O Device (Part I)
+> 2. Neuron as an I/O Device
 > 3. The Axon
 > 4. The Dendrite
 > 5. Neuron Types
 > 6. The Synapse
-> 7. Neuron as an I/O Device (Part II)
 
 ## 1. The Neuron
 ### **Historical Account**
@@ -32,7 +31,7 @@ Golgi completely disagreed with this, believing instead that all the cells are c
 
 Today, we accept Ramon y Cajal's idea, with the dendrites being receptive devices (input) and the axon being the sending device (output). A labelled image of a typical neuron is shown above.
 
-## 2. Neuron as an I/O Device (Part I)
+## 2. Neuron as an I/O Device
 ### **Conceptual Overview**
 The blue neuron is the **post-synaptic** neuron, the receiving neuron. The red neurons are the **pre-synpatic** neurons, the sending neurons.
 
@@ -111,4 +110,6 @@ Transmission can be characterised through a highly chemical process, in particul
 
 ![Vesicle Quantal Release](./images/images_2/vesicle_quantal_release.png)
 
-The 
+The synapse connects the axon of a pre-synaptic neuron with the dendrite of the post-synaptic neuron. An action potential in the pre-synaptic cell triggers release of vesicles containing neurotransmitters that spreads into the synaptic gap. Receptors in the post-synaptic cell recognise transmitter molecules and this may result in voltage change (the post-synaptic potential). 
+
+The synapse is also plastic for it can strengthen or weaken over time depending on the usage of the synapse. It is this feature that makes the synapse so important for memory. The chemical nature of the synaptic process also allows for changes to be made to neuronal interactions via chemistry (addition or subtraction of ions etc.). Overall, the synapse carries out the most fundamental process that underpins every function within the brain.

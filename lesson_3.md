@@ -56,11 +56,11 @@ The neuron's input resistance ${R_{in}}$ is another crucial parameter. While it 
 
 ## 3. Temporal Summation
 
-This is a consequence of us having the membrane time constant. Imagine this: we inject repeated current step pulses with intermissions. If the intermissions are short enough relative to the pulse durations, we have a buildup of potential difference. This is because the discharging occurs less so than the charging. This called "temporal summation".
+This is a consequence of us having the membrane time constant. Imagine this: we inject repeated current step pulses with intermissions. If the intermissions are short enough relative to the pulse durations, we have a buildup of potential difference due to discharging occurring less than charging. This process is called "temporal summation".
 
 ![Temporal Summation](./images/images_3/temporal_summation.png)
 
-This occurs when the intermission period is in the order of the membrane time constant ${\tau_m}$. Give it a moment and you'll notice that this is exactly what the neuron is doing:
+This happens when the intermission period is in the order of the membrane time constant ${\tau_m}$. Give it a moment and you'll notice that this is exactly what the neuron is doing:
 - Binary data coming in and Analogue data coming out
 - Positive and Negative current step inputs correspond to Excitatory and Inhibitory synapses respectively
 - Input signals are getting "summed up" chronologically

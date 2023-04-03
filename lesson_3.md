@@ -61,6 +61,6 @@ This is a consequence of us having the membrane time constant. Imagine this: we 
 ![Temporal Summation](./images/images_3/temporal_summation.png)
 
 This happens when the intermission period is in the order of the membrane time constant ${\tau_m}$. Give it a moment and you'll notice that this is exactly what the neuron is doing:
-- Binary data coming in and Analogue data coming out
+- Binary data coming in and Analogue data prepared for the axon
 - Positive and Negative current step inputs correspond to Excitatory and Inhibitory synapses respectively
 - Input signals are getting "summed up" chronologically

@@ -4,9 +4,9 @@
 > 1. Neurons as Passive R-C Circuits
 > 2. The Membrane Time Constant ${\tau_m}$ 
 > 3. Temporal Summation
-> 4. Post-Synaptic Potential (PSP)
+> 4. Resting Potential
 > 5. Excitatory (E) and Inhibitory (I) Synapses
-> 6. Excitatroy and Inhibitory Interaction
+> 6. Excitatory and Inhibitory Interaction
 
 ## 1. Neurons as Passive R-C Circuits
 
@@ -14,7 +14,7 @@ We will be taking the potential difference between the ***inside*** of the neuro
 
 When subject to a constant pulse of current, we observe the following.
 
-![Voltage Response](./images/images_3/Voltage_Time_response.png)
+![Voltage Response](./images/images_3/voltage_time_response.png)
 
 The potential difference takes time to grow while the current is being injected. When the current injection stops, the potential difference is attenuated to 0 over time.
 
@@ -56,7 +56,7 @@ The neuron's input resistance ${R_{in}}$ is another crucial parameter. While it 
 
 ## 3. Temporal Summation
 
-This is a consequence of us having the membrane time constant. Imagine this: we inject repeated current step pulses with intermissions. If the intermissions are short enough relative to the pulse durations, we have a buildup of potential difference due to discharging occurring less than charging. This process is called "temporal summation".
+This is a consequence of having the membrane time constant. Imagine this: we inject repeated current step pulses with intermissions. If the intermissions are short enough relative to the pulse durations, we have a buildup of potential difference due to discharging occurring less than charging. This process is called "temporal summation".
 
 ![Temporal Summation](./images/images_3/temporal_summation.png)
 
@@ -64,3 +64,18 @@ This happens when the intermission period is in the order of the membrane time c
 - Binary data coming in and Analogue data prepared for the axon
 - Positive and Negative current step inputs correspond to Excitatory and Inhibitory synapses respectively
 - Input signals are getting "summed up" chronologically
+
+By summing temporally with intermissions, the peaks of the voltage spikes will always be lower than if there were no intermissions at all. The latter is the maximum we can get (IR). We can see in the graph below that it serves as a bound for actual voltage spikes.
+
+![Maximum Voltage](./images/images_3/maximum_voltage.png)
+
+Temporal summation can only really happen if the intermission durations are in the order of the membrane time constant; if it's too long, too much of the voltage gets attenuated. The output has to reflect the interplay between inhibitory and excitatory synaptic current injections, and too much attenuation doesn't allow for an accurate reflection.
+
+## 4. Resting Potential
+
+Without injection of any current, the nerve cell is more negative than its external surroundings by ~70mV. This is its resting potential. To account for this in our circuit model, we need to add a battery in series, suggesting that the inside is more negative than the outside (negative terminal faces the inside and positive terminal faces outside).
+
+![Updated Model](./images/images_3/updated_model_circuit.png)
+
+The resting potential is the reference frame. Going lower than that is called "***Hyperpolarisation***" and going higher than that is called "***Depolarisation***".
+

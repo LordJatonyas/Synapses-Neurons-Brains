@@ -7,7 +7,7 @@
 > 4. The Resting Potential
 > 5. The Synaptic Potential
 > 6. Excitatory (E) and Inhibitory (I) Synapses
-> 7. Excitatroy and Inhibitory Interaction
+> 7. Excitatory and Inhibitory Interaction
 
 ## 1. Neurons as Passive R-C Circuits
 
@@ -51,7 +51,7 @@ $$
 \displaystyle V(t = RC) = IR(1 - e^{-\frac{RC}{RC}}) = IR(1 - e^{-1}) \approx 0.63 IR
 $$
 
-This parameter governs the speed of the voltage response to a current step input. If it's small, it takes shorter to charge / discharge and the opposite is true.
+This parameter governs the speed of the voltage response to a current step input. If it's small, it takes shorter to charge / discharge and the opposite is true. A ballpark value for the membrane time constant ${\tau_m = RC = 20 milliseconds}$. It could go lower than this depending on how leaky the circuit is.
 
 The neuron's input resistance ${R_{in}}$ is another crucial parameter. While it is part of the membrane time constant ${\tau_m}$, it also decides the steady state potential difference that can be reached. These 2 serve as the main parameters for understanding the passive linear approximation of the neuron.
 
@@ -84,10 +84,18 @@ Positive current is depolarising - carrying the voltage towards positivity.
 
 Negative current is hyperpolarising - carrying the voltage towards greater negativity.
 
-## The Synaptic Potential
+## 5. The Synaptic Potential
 
 One crucial thing to note from the previous models: no one's actually injecting currents externally into the neuron. Naturally, one will ask: Where do the currents come from???
 
 Answer: Synapses
 
-The synaptic process brings an injection of current 
+Recall the following process:
+
+![Axon-Dendrite Interaction](./images/images_3/axon-dendrite_interaction.png)
+
+The Pre-Synaptic Axon and Post-Synaptic Dendrite experience a spike in which communication occurs between the two parts. The chemical process leads to opening of new ion channels, creating new paths for current. The new "synaptic" channels open only when transmitters are released. These are modelled by a series connection of a switch, a variable resistor of conductance ${g_{syn}}$, and a battery ${E_{syn}}$, and this part is connected in parallel with the rest of the circuit mentioned before.
+
+To understand this more clearly, the dendrite has both passive and synaptic ion channels. The passive channels are always on, so there is no need for a switch there. However, the synaptic ion channels only open when transmitters are released and interact with the dendrite's receptors. This explains the existence of a series switch in the model. 
+
+## 6. Excitatory (E) and Inhibitory (I) Synapses
